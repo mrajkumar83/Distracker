@@ -1,0 +1,5 @@
+Hi,
+<p>Could you please assign<StaffRole> staff for Research titled "<DissertationTitle>".</p>
+<p><a href="<URL>" target="_top">Click Here </a>to login to application.</p>
+<p>Thanks,</p>
+<StudentName>

@@ -1,0 +1,17 @@
+.ui-widget-header {
+    border: 1px solid #aaaaaa;
+    background: #cccccc url(images/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x !important;
+    color: #222222;
+    font-weight: bold;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    background: rgba(0, 0, 0, 0) url("../images/slider.gif") repeat-x scroll 50% 50%;
+    border: 1px solid #d3d3d3 !important;
+    color: #555555;
+    font-weight: normal;
+}
+thead, th {
+    background-color: #ece9d8 !important;
+    font-size: 14px;
+    font-weight: bold;
+}

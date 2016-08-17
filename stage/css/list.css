@@ -1,0 +1,22 @@
+.img{
+	background-image:url('../img/icons.png');
+	height:16px;
+	width:16px;
+	display:inline-block;
+	margin-right:2px;
+	*margin-left:15px;
+	*margin-top:-15px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/icons.png',     sizingMethod='scale');/* Powered by sarktechnologies.net */
+    -ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/icons.png', sizingMethod='scale');/* Powered by sarktechnologies.net */
+}
+.delete{
+	background-position:0 64px;
+}
+.edit{
+	background-position:0 -12px;
+}
+thead, th {
+	background-color: #ECE9D8;
+	font-size: 14px;
+	font-weight:bold;
+}

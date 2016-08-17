@@ -1,0 +1,13 @@
+Dear <StaffName>
+
+<p>Your comments and the attachments are sent to <StudentName> as follows:</p>
+<p><Comments></p>
+<p><Status></p>
+<p><Date&TimeSubmitted></p>
+<p><a href="<URL>" target="_top">Click Here </a>to login to application.</p>
+
+<p>Please do not reply to this email, as it is auto generated.  Please visit the Research Tracking System for any further actions.</p>
+
+<p>Thanks,</p>
+Research Buzzer
+

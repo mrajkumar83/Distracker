@@ -1,0 +1,7 @@
+Hi <FullName>,
+
+<p>Please click on the below link to activate your Account in Research Study.</p>
+<p><a href="<URL>" target="_top">Click Here..</a></p>
+
+<p>Thanks,</p>
+Research Buzzer

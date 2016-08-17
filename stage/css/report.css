@@ -1,0 +1,49 @@
+.select-bar {
+    border-bottom: 2px solid #FF7700;
+    border-top: 2px solid #FF7700;
+    clear: both;
+    margin: 10px auto ;
+    padding: 2px 0;
+	text-align: center;
+}
+.reports_img{background-image:url(../img/reports_img.png); height:15px; width:15px; display:inline-block;  vertical-align:top;} 
+.edit{background-position:0px -18px;}
+.notstarted{background-position:-1px -37px;}
+.ok{background-position:0px -55px;}
+.reject{background-position:-1px -74px;}
+.review{background-position:-1px -94px;}
+.chapter{width:78px;height:34px; background-image:url('../img/chapers.png'); display:inline-block;}
+.chp1{background-position:0px -286px;}
+.chp2{background-position:0px -324px;}
+.chp3{ background-position:0px -9px;}
+.chp4{background-position:0px -50px;}
+.chp5{background-position:0px -90px;}
+.chp6{background-position:0px -131px;}
+.chp7{background-position:0px -363px;}
+.chp8{background-position:0px -170px;}
+.chp9{background-position:0px -209px;}
+.chp10{background-position:0px -249px;}
+
+/* Powered by sarktechnologies.net */
+.roleCell{
+	text-align:center;
+	background-color:#d1c9c9 !important;
+}
+.roleDiv{
+	font-weight: bold;
+	margin:0 auto;
+	text-align:center;
+}
+.allocation{
+	font-weight:bold;
+	font-size:9px;
+	color:#808080;
+	font-style:italic;
+}
+.not{
+	color:#ff6a00;
+}
+.date{
+	font-style:italic;
+	font-size:9px;
+}

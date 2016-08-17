@@ -1,0 +1,101 @@
+html,body,form{
+	padding:0;
+	margin:0;
+	font-family: tahoma,arial,sans-serif;
+    font-size: 11px;	
+}
+hr{
+	border: 1px solid #d2d2d2; 
+	margin: 14px 0; 
+	width : 544px;
+}
+.logo{
+	background: #FFFFFF url('../img/Logo.jpg') no-repeat center center;
+	/*filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/Logo.jpg', sizingMethod='scale');
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";*/
+	height: 175px;
+	margin: 20px auto;
+width:478px;
+
+}
+.mainBox{
+	margin:0 auto;
+	text-align: center;
+}
+.contentBox{
+	width:580px;
+	margin:0 auto;
+	text-align: left;
+}
+.moduleBoxWrapper_TOP {
+	font-family: Arial,Helvetica,sans-serif;
+    background: url("../img/loginsprite.png") no-repeat scroll left top transparent;
+    color: #5E5E5E;
+    font-size: 15px;
+    font-weight: bold;
+    height: 27px;
+    padding: 12px 0 0 14px;
+    width: 580px;
+}
+
+.moduleBoxWrapper_BACK {
+    background: url("../img/horizontal1PX_Backgrounds.png") repeat-y scroll left top transparent;    
+    overflow: hidden;
+    padding: 20px 24px 1px 14px;
+    width: 540px;
+	_width: 541px;
+}
+.moduleBoxWrapper_BOTTOM {
+    background: url("../img/loginsprite.png") no-repeat scroll 0 -40px transparent;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../img/loginsprite.png', sizingMethod='scale');
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    height: 18px;
+    overflow: hidden;
+    width: 580px;
+	_width: 595px;
+	margin: 0 auto;
+}
+.boxText {
+    color: #5E5E5E;
+    font-size: 12px;
+}
+.boxText a{
+	text-decoration:none;
+	color: #000000;
+}
+.loginFields{
+	list-style-type: none;
+	margin:0;
+}
+.loginFields li input{
+	margin-bottom: 20px;
+}
+.loginFields li label{
+	margin-left:5px;
+	color: #F00;
+}
+.loginFields li input[type="submit"]{
+	margin-bottom: 10px;
+}
+ul li{
+	margin:2px 0;
+}
+.select-bar {
+	text-align: center;
+    border-bottom: 2px solid #FF7700;
+    border-top: 2px solid #FF7700;
+    clear: both;
+    margin: 0 0 10px;
+    padding: 2px 0;
+	
+}
+.complsory{color:#FF0000;}
+#loginfrm ul li{ _margin-left:45px;}
+.loginFields{border-top:2px solid #ccc; margin-top:2px; border-bottom:2px solid #ccc; width:500px; _width:540px;}
+.gradient{_margin-bottom:10px !important;}
+.errorDiv{
+	margin:2px 20px;
+	color:#FF0000;
+	font-weight:bold;
+}
+.login{width:75px; height:30px; font-weight:bold; margin-top:5px; cursor:pointer; line-height:30px; padding:0 5px; border-radius:5px; border:0;}

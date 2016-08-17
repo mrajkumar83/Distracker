@@ -1,0 +1,64 @@
+.Chapters{
+	height: 30px;
+	line-height:30px;
+	background:#FF7E00;
+	color: #FFF;
+	font-weight: bold;
+	font-size:16px;
+	padding-left: 8px;
+	border-bottom: 3px solid #FFFFFF;
+	cursor: pointer;
+	cursor: hand;
+}
+.select-bar{
+	/*width:700px;*/
+	margin:5px auto;
+	text-align: left;
+}
+.title{
+    font-size: 12px;
+    text-align: center;
+    text-transform: none;
+    vertical-align: middle;
+	background: #9097A9;
+    color: #FFFFFF;
+	clear:both;
+	height:60px;
+}
+.DataContainer{
+	background:#ECECEC;
+	padding:5px;
+}
+.DataContainer p{
+	margin:0;
+}
+.childContainers{
+	background:#ECECEC;
+	margin:0;
+}
+.floatleft{
+	margin: 5px;
+	float: left;
+	background: #9097A9;
+    color: #FFFFFF;
+}
+.floatright{
+	margin: 5px;
+	height:60px;
+	float: right;
+	vertical-align: middle;
+}
+.hideContainer{
+	display : none;
+}
+.showContainer{
+	display : block;
+}
+
+.MsgDiv{
+	font-weight:bold;
+	color: #009700;
+	padding-left: 3px;
+	margin: 15px 0;
+}
+/*** Powered by sarktechnologies.net ***/

@@ -1,0 +1,97 @@
+body{
+	margin:0;
+	padding:0;
+  	color:#000;
+	font-family:tahoma,arial,sans-serif;
+	font-size:11px;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+iframe{
+	float:left;
+	overflow: auto
+	margin: 4px 0;
+}
+.row{
+	 margin : 0 !important; 
+}
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    float: left;
+}
+.col-sm-10 {
+    width: 83.3333%;
+}
+#left-column 
+{
+	
+	padding:1px 1px 0 2px;
+	 width: 16.6667%;
+	 float: left;
+	/*
+	float:left; 
+	width:151px;
+	_width:151px;
+	*width:151px;
+	
+	margin-top:4px;
+	margin-right:6px;
+	*/
+	height:580px;
+	overflow: auto;
+	
+}
+#left-column a {color:#3E3E3E;}
+#left-column h3 {
+	font-size:15px;
+	margin:0;
+	font-weight: bold;
+	color:#fff;
+	background-color: #FF8300;
+	border-radius: 5px 5px 0 0;
+	/* background:url(../../img/bg-left-header.gif) no-repeat left top;*/
+	height:35px;
+	line-height:35px;
+	padding:0 0 0 9px;
+	}
+ul.nav {
+	margin:0 0 2px 0;
+	border-bottom:2px solid #FF9600;
+	background:#ECEFE7;
+	list-style:none;
+	padding:0 2px;
+	}
+ul.nav li {
+	/* padding:4px 4px 6px 5px;*/
+	padding: 1px 2px;
+	background:url(../../img/bg-dotted.gif) repeat-x bottom !important;
+	}
+ul.nav a {
+	padding:5px 12px !important;
+	background:url(../../img/arrow.gif) no-repeat 0 12px;
+	}
+ul.nav a:hover {
+	font-weight:bold;
+	}
+ul.nav li.last {background:none;}
+
+#left-column .link {
+	display:block;
+	width:142px;
+	height:25px;
+	background:url(../../img/bg-left-link.gif);
+	margin:0 0 4px 0;
+	font-weight:bold;
+	padding:0 0 0 9px;
+	line-height:25px;
+	color:#60635A;
+	}
+#middle #left-column  li.leftMenuActive{
+	background-color: #FFFFFF;
+	font-weight:bold;
+}
+/*** Powered by sarktechnologies.net ***/
