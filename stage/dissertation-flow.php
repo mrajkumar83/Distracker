@@ -2,6 +2,7 @@
 $step = '2';
 $path = '..';	
 $title =  '';//'Dissertation';
+$back_btn = '';
 $css = array('css/tinyeditor.css', 'css/report.css', 'css/miscpages.css', 'css/collapsingDiv.css');
 $js = array('js/jquery.validate.js', 'js/dissert.js');
 if(!isset($op) || $op != 'H' )
@@ -10,6 +11,7 @@ if(!isset($op) || $op != 'H' )
 }
 
 require_once('includes/common.php');
+require_once('includes/proxy_user.php');//Has to be after common.php because session has not be disturbed
 require_once('includes/flowFuncs.php');
 
 $stgdata = new stdClass();
@@ -22,6 +24,7 @@ $max_step = 0;
 $chkrole = 0;
 $chktable = 3;
 $flow_chk = 'F';
+
 //$op = isset($op) ? $op : '';
 
 if(!isset($op) || $op != 'H' )
@@ -65,7 +68,7 @@ require_once('includes/history.php');
 	</div>
 	<?php
 		require_once($path.'/pages/dissertation_details.php');
-		require_once($path.'/pages/dissertation_progress.php');
+		require_once($path.'/pages/dissertation_progress.php');// Template to upload documents
 	}
 	else
 	{

@@ -96,7 +96,8 @@ if($nextstep){
                 <input type="hidden" value="<?php echo $role_title; ?>" name="StaffRole">
                 <input type="hidden" value="<?php echo $dissertation->con_name; ?>" name="Concentration">
 				<input type="hidden" value="<?php echo $dissertation->chrt_name; ?>" name="Cohort">
-				<input type="hidden" value="<?php echo $flow_chk; ?>" name="flow_chk">				
+				<input type="hidden" value="<?php echo $flow_chk; ?>" name="flow_chk">
+				<input type="hidden" value="<?php echo (isset($op) ? $op : ''); ?>" name="op">
 				
                 <input type="reset" value="Cancel" name="Cancel">
                 &nbsp; &nbsp;

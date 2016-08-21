@@ -5,6 +5,7 @@ require_once('../classes/Database.class.php');
 require_once('../classes/Query.class.php');
 require_once('../common/checksess.php');	
 require_once('../common/fileupload.php');
+require_once('../stage/includes/proxy_user.php');//Has to be after common.php because session has not be disturbed
 
 $staff = ($UTYPE != 'SD') ? $UID : 0;
 $sts = ($UTYPE != 'SD') ? $sts : 'S';
@@ -72,4 +73,7 @@ if(isset($_FILES['disseration_files']) && $hid)
 	}//End of for(;;)	
 }//End of if()
 require_once('mail_stages.php');
+if(isset($op) && $op=='U' && isset($did) && isset($std_id) && is_numeric($std_id)){
+	header('Location: dissertation_list.php?op=H&amp;cid='.$cid);
+}
 header('Location:../stage/dissertation-flow.php?did='.$did.'&op=C&sts_sent='.$sts);
